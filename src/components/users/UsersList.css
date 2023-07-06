@@ -1,0 +1,17 @@
+.allusers-container{
+    display:flex;
+    flex-direction:column;
+}
+
+.allusers-title{
+    text-align: center;
+    color: var(--purple-shade-1);
+    text-decoration: underline;
+    margin-top:30px;
+}
+
+.userslist-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    justify-items: center;
+}

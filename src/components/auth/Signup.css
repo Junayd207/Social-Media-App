@@ -1,0 +1,92 @@
+.signup-page{
+    height:100vh;
+    display:grid;
+    place-items: center;
+}
+
+.signup-container{
+    border: 2px solid var(--gray-shade-1);
+    border-radius:5px;
+    padding:10px 20px;
+}
+
+.signup-title{
+    text-align:center;
+}
+
+.form-container{
+    display:flex;
+    flex-direction:column;
+}
+
+.username-label{
+    margin: 0 0 10px 0;
+}
+
+.username-input{
+    border-radius: 5px;
+    border:1px solid var(--gray-shade-1);
+    padding:2px 4px;
+}
+
+.email-label{
+    margin:10px 0;
+}
+
+.email-input{
+    border-radius: 5px;
+    border:1px solid var(--gray-shade-1);
+    padding:2px 4px;
+}
+
+.password-label{
+    margin: 10px 0;
+}
+
+.password-input{
+    border-radius: 5px;
+    border:1px solid var(--gray-shade-1);
+    padding:2px 4px;
+}
+
+.signup-button{
+    margin:20px 0 10px;
+    padding: 10px 20px;
+    color:white;
+    background-color:var(--purple-shade-1);
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.login-text{
+    font-size:14px;
+    margin:10px 0;
+    padding:0 40px;
+}
+
+.error-box{
+    display:flex;
+    flex-direction:column;
+    border: 2px solid red;
+    background:pink;
+    padding:10px;
+    border-radius:4px;
+    margin-bottom:10px;
+}
+
+.error-title-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error-title{
+    margin:0 0 10px 0;
+    color:red;
+}
+
+.error-text{
+    margin:8px 0 0 0;
+    color:red;
+}
