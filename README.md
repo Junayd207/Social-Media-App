@@ -1,3 +1,8 @@
+### Information
+- Social media Application made using ReactJS, Javascript, HTML and CSS
+- Firebase Database to store user data with user authentication
+- Custom React hooks for data handling
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
